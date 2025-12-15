@@ -55,9 +55,9 @@
 
 Global overview – mixed entities (lights, shutters, climates, sensors, presence…) in a single grid:
 
-![Raptor Grid Card – Demo](raptor-grid-card-demo.gif)
+![Raptor Grid Card – Overview](raptor-grid-card-demo-overview.gif)
 
-> 👉 Place your GIF in the repository (for example `raptor-grid-card-demo.gif`) and update the filename above if needed.
+> 👉 The full demo is shown above. More specific demos are available further below in the README.
 
 ---
 
@@ -481,6 +481,19 @@ entities:
         to: 1600
         color: "#ef4444"
 ```
+
+---
+
+## 🎬 More demos (GIF)
+
+### Climates
+![Raptor Grid Card – Climates](raptor-grid-card-demo-climates.gif)
+
+### Covers (shutters)
+![Raptor Grid Card – Covers](raptor-grid-card-demo-covers.gif)
+
+### Sensors & gauges
+![Raptor Grid Card – Sensors](raptor-grid-card-demo-sensors.gif)
 
 ---
 
