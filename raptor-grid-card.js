@@ -99,13 +99,6 @@ const RG_LitBase =
   );
 
 
-const RG_LitBase =
-  window.LitElement ||
-  Object.getPrototypeOf(
-    customElements.get("ha-panel-lovelace") ||
-      customElements.get("hui-view")
-  );
-
 const rgHtml =
   (RG_LitBase.prototype && RG_LitBase.prototype.html)
     ? RG_LitBase.prototype.html
@@ -1166,3 +1159,4 @@ window.customCards.push({
   description:
     "Grille de bulles 1:1 façon Raptor Orbit (climate, sensor, cover, switch, gauge).",
 });
+
